@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+
+body{
+    margin: 0 auto;
+   max-width: 3200px;
+    font-family: 'Poppins', sans-serif;
+    color:  white;
+    background-image: url('assets/aa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    
+    margin: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 40px 0;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 10px #333;
+    z-index: 1000;
+    background-color: #3333337c;
+    top: 0;
+}
+.boton{
+    border: white;
+    background: none;
+    background-color: rgba(32, 178, 171, 0.445);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+   position: absolute;
+   
+   
+}
+.form{
+    display: grid;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.enviar{
+    border: white;
+    background: none;
+    background-color: rgba(32, 178, 171, 0.445);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+   position: absolute;
+   border-radius: 10px;
+}
+
+.icono-red{
+    width: 50px;
+    height: 50px;
+}
+
+h2{
+    padding: 30px;
+    font-family: 'poppins', sans-serif;
+}
+hr{margin-bottom: 30px;}
+
+.contenedor-redes img{
+ width: 60px;
+ height: 60px;
+ transition: all 1s;
+ margin: 10px;
+ flex-direction: row;
+}
+:hover.contenedor-redes img{
+    transform: scale(1.2);
+}
+p{
+    font-family: 'poppins', sans-serif;
+}
+.contenedor-parrafo{
+    box-shadow: 5px 5px 15px #333, -5px -5px 15px #333;
+    margin: 30px;
+    
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cliente {
+    margin: 10px;
+    text-align: center;
+   
+  }
+
+  :hover .cliente img{
+    box-shadow: 5px 5px 15px #333, -5px -5px 15px #333 ;
+    transform: scale(1.1);
+   
+  }
+
+
+  .cliente img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .cliente h3 {
+    margin-top: 10px;
+    color:  wheat;
+
+  }
+
+  .cliente p {
+    color: white;
+  }
+  
+  .p2{
+background-color: #3333339c;
+  }
